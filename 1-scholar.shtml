@@ -1,0 +1,64 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<title>Searching: using Google Scholar</title>
+</head>
+
+<body>
+
+<!-- start of content -->	
+
+<h1 style="color:#0049AE">Searching: using Google Scholar</h1>
+<div>
+  <!--<div>Email <a href="mailto:rbadgett@kumc.edu">rbadgett@kumc.edu</a> for suggestions to impmrove these instructions. </div>-->
+<h2 style="color:#0049AE">Scholar settings to link your institution's library for full texts of articles</h2>
+   	<ul type=o>
+		<li><a href="https://scholar.google.com/scholar_settings">Scholar settings</a>
+			<ul><li>Select and save your institution's library</li></ul>
+		</li>
+	</ul>	
+	<h2 style="color:#0049AE"><a name="button" id="button"></a>Scholar button for your browser</h2>
+  	<ul type=o><li>First, install the button
+  		<ul>
+	  		<li>Install the scholar button for <a href="https://addons.mozilla.org/en-US/firefox/user/averstak/?src=api">FireFox</a>.</li>
+	  		<li>Install the scholar button for <a href="https://chrome.google.com/webstore/detail/google-scholar-button/ldipcbpaocekfooobnbcddclnhejkcpn?hl=en">Chrome</a>.</li>
+		</ul></li>
+  		<li>Second, the button can help you get full text of any article from any webpage or PDF by using your mouse to highlight/select the article title, then clicking the Scholar button</li>
+	</ul>
+ <h2 style="color:#0049AE">Cited reference searches with Scholar</h2>
+		<ul><li>The Scholar button can expedite cited reference searching. Cited reference searching is an alternative to traditional (Boolean) searching. The premise is that if you have a seminal article for a topic, any high-quality subsequent article will cite the seminal article. Example:
+  		<ul>
+	  		<li>A collection of <a href="https://www.ncbi.nlm.nih.gov/pubmed?cmd=Search&term=23616849%2021227543%2026573784%2026386734%2028276800">5 existing articles on sepsis alerts</a> that you may have gathered from UpToDate, Dynamed, colleagues, initial lit search, etc.</li>
+	  		<li>Which of these is the most highly cited?</li>
+	  		<li>Then ask Google to give you the list of articles that are published later and cite this article.</li>
+  		</ul>
+		</li>
+	</ul>
+	
+	
+
+
+    <!-- Stop content here -->
+
+  <div>&nbsp;</div>
+<div>Questions: <a href="mailto:rbadgett@kumc.edu">rbadgett@kumc.edu</a></div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-528993-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>
