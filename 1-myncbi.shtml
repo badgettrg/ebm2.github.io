@@ -1,0 +1,146 @@
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Searching: getting started</title>
+</head>
+
+<body>
+
+  <table border="0" style="text-align:center;width:800px"><tr><td><a href="http://wichita.kumc.edu/"><img src="/images/kusmw_logo.gif" alt="KUSMW logo" style="border:0"/></a></td><td><h1 style="color:#0049AE">SUMSearch 2</h1></td><td><a href="http://www.kumc.edu/"><img src="/images/masthead_logo.gif" alt="KUMC logo" style="border:0"/></a></td></tr></table>
+
+<!-- start of content -->	
+
+<h1>Searching: getting started</h1>
+<div>
+  <!--<div>Email <a href="mailto:rbadgett@kumc.edu">rbadgett@kumc.edu</a> for suggestions to impmrove these instructions. </div>-->
+  
+	<h2>Prepare PubMed and MyNCBI</h2>
+  <ol>
+    <li>Create a MyNCBI account at PubMed</li>
+	  <li><a href="#public">Create a public collection</a> that contains the articles that you already have on your topic.</li>
+  </ol>
+  <h3>1. Create a MyNCBI account at PubMed </h3>
+  <p>Go to PubMed, click on &quot;My NCBI&quot; in the upper right and create an account. Customize your account:</p>
+  <ol type="A">
+    <li> Click &quot;NCBI Site Preferences&quot; (upper right)
+			<ol>
+	    <li>For your Outside Tool, select &quot;University of Kansas Medical Libraries - Find It!&quot; . This places the KUMC Find It! icon <img src="DB__ot__3683.jpg" width="120" height="28"> on the upper right of PubMed abstracts so you can get the full text of most articles. Warning: this configuration periodically dissappears at PubMed and you have to restore the setting.</li>
+	    <li>Select highlighting and pick your favorite, but not obstrusive color.</li>
+		</ol>
+	</li>
+    <li>Create four filters
+		<ul>
+			<li><span style="color:red;font-weight:bold">Alert: filters for Cochrane updated 8/8/2013 to reflect new journal name for the Cochrane at PubMed.</span></li>
+	        <li>In the <span style="color:#724128;font-weight:bold;font-size: 1.2em">Filters</span> section of the lower right of your MyNCBI page.</li>
+			<li>Click &quot;Create custom filter&quot; button and make the following four filters. </li>
+
+	<ol>
+	    <li><b>High Impact Journals</b>. So you do not miss major publications among searches with a large number of results
+	      <ol type="a">
+					<li>Create a filter that is named &quot;High impact journals&quot; and contains the search terms: <br>
+						<table border=0 style="background-color:#CFCFCF"><tr><td>
+						<a class="selectall" href="javascript:document.getElementById('highimpactfilter').select()">Select text below</a> (then press control and C together to copy)<br>
+						<textarea id="highimpactfilter" cols="80" rows="2" wrap="virtual"  onFocus="this.select()">&quot;N Engl J Med&quot;[Jour] OR JAMA[Jour] OR &quot;Ann Intern Med&quot;[Jour] OR Lancet[Jour] OR BMJ[Jour]</textarea>
+						</td></tr></table>
+					</li>
+					<li>If you want to sub Ann Intern Med for high impact journal in another specialty, use the <a href="https://www.ncbi.nlm.nih.gov/pubmed/citmatch">PubMed Citation Matcher</a> to find that journal's abbreviation</li>
+					<li>Click Save filter </li>
+	        <li>Make your filter active by clicking its option box. </li>
+	        <li>Now, whenever you execute a PubMed search while logged into MyNCBI, you will have the option to filter the search results to just these journals. While you do not want to ignore important results from other journals, you do not want to overlook results from these journals. </li>
+	      </ol>
+	    </li>
+	    <li><b>ACP Journal Club journals</b>. So you do not miss high quality publications among searches with a large number of results (<a href="http://hiru.mcmaster.ca/hiru/HIRU_Hedges_home.aspx">details</a>)
+	      <ol type="a">
+					<li>Create a filter that is named &quot;ACPJC journals&quot; and contains the search terms: <br>
+						<table border=0 style="background-color:#CFCFCF"><tr><td>
+						<a class="selectall" href="javascript:document.getElementById('acpjcfilter').select()">Select text below</a> (then press control and C together to copy)<br>
+						<textarea id="acpjcfilter" cols="80" rows="2" wrap="virtual"  onFocus="this.select()">&quot;Acta Obstet Gynecol Scand&quot;[journal] OR &quot;Acta Orthop Scand&quot;[journal] OR &quot;Age Ageing&quot;[journal] OR &quot;Aliment Pharmacol Ther&quot;[journal] OR &quot;Am J Cardiol&quot;[journal] OR &quot;Am J Epidemiol&quot;[journal] OR &quot;Am J Gastroenterol&quot;[journal] OR &quot;Am J Med&quot;[journal] OR &quot;Am J Obstet Gynecol&quot;[journal] OR &quot;Am J Psychiatry&quot;[journal] OR &quot;Am J Public Health&quot;[journal] OR &quot;Am J Respir Crit Care Med&quot;[journal] OR &quot;Am J Sports Med&quot;[journal] OR &quot;Ann Emerg Med&quot;[journal] OR &quot;Ann Intern Med&quot;[journal] OR &quot;Ann Rheum Dis&quot;[journal] OR &quot;Ann Surg&quot;[journal] OR &quot;ANS Adv Nurs Sci&quot;[journal] OR &quot;Appl Nurs Res&quot;[journal] OR &quot;Arch Dis Child&quot;[journal] OR &quot;Arch Dis Child Fetal Neonatal Ed&quot;[journal] OR &quot;Arch Gen Psychiatry&quot;[journal] OR &quot;Arch Intern Med&quot;[journal] OR &quot;Arch Neurol&quot;[journal] OR &quot;Arch Pediatr Adolesc Med&quot;[journal] OR &quot;Arch Phys Med Rehabil&quot;[journal] OR &quot;Arch Surg&quot;[journal] OR &quot;Arthritis Rheum&quot;[journal] OR &quot;Arthroscopy&quot;[journal] OR &quot;Birth&quot;[journal] OR &quot;BMJ&quot;[journal] OR &quot;Br J Gen Pract&quot;[journal] OR &quot;Br J Obstet Gynaecol&quot;[journal] OR &quot;Br J Psychiatry&quot;[journal] OR &quot;Br J Surg&quot;[journal] OR &quot;Can J Gastroenterol&quot;[journal] OR &quot;Can J Nurs Res&quot;[journal] OR &quot;Can J Surg&quot;[journal] OR &quot;Can Respir J&quot;[journal] OR &quot;Cancer&quot;[journal] OR &quot;Cancer Nurs&quot;[journal] OR &quot;Circulation&quot;[journal] OR &quot;Clin Orthop&quot;[journal] OR &quot;CMAJ&quot;[journal] OR &quot;The Cochrane database of systematic reviews&quot;[journal] OR &quot;Crit Care Med&quot;[journal] OR &quot;Diabet Med&quot;[journal] OR &quot;Diabetes Care&quot;[journal] OR &quot;Fam Pract&quot;[journal] OR &quot;Foot Ankle Int&quot;[journal] OR &quot;Gastroenterology&quot;[journal] OR &quot;Gut&quot;[journal] OR &quot;Health Educ Behav&quot;[journal] OR &quot;Health Psychol&quot;[journal] OR &quot;Heart&quot;[journal] OR &quot;Heart Lung&quot;[journal] OR &quot;JAMA&quot;[journal] OR &quot;J Adv Nurs&quot;[journal] OR &quot;J Am Acad Child Adolesc Psychiatry&quot;[journal] OR &quot;J Am Coll Cardiol&quot;[journal] OR &quot;J Am Coll Surg&quot;[journal] OR &quot;J Am Geriatr Soc&quot;[journal] OR &quot;J Am Med Inform Assoc&quot;[journal] OR &quot;J Arthroplasty&quot;[journal] OR &quot;J Bone Joint Surg Am&quot;[journal] OR &quot;J Bone Joint Surg Br&quot;[journal] OR &quot;J Child Psychol Psychiatry&quot;[journal] OR &quot;J Clin Epidemiol&quot;[journal] OR &quot;J Clin Nurs&quot;[journal] OR &quot;J Consult Clin Psychol&quot;[journal] OR &quot;J Fam Pract&quot;[journal] OR &quot;J Gen Intern Med&quot;[journal] OR &quot;J Hand Surg (Am)&quot;[journal] OR &quot;J Hand Surg (Br)&quot;[journal] OR &quot;J Infect Dis&quot;[journal] OR &quot;J Manipulative Physiol Ther&quot;[journal] OR &quot;J Neurol Neurosurg Psychiatry&quot;[journal] OR &quot;J Neurosurg&quot;[journal] OR &quot;J Nurs Scholarsh&quot;[journal] OR &quot;J Orthop Res&quot;[journal] OR &quot;J Orthop Trauma&quot;[journal] OR &quot;J Pediatr Oncol Nurs&quot;[journal] OR &quot;J Pediatr Orthop&quot;[journal] OR &quot;J Pediatr&quot;[journal] OR &quot;J Rheumatol&quot;[journal] OR &quot;J Trauma&quot;[journal] OR &quot;J Vasc Surg&quot;[journal] OR &quot;Lancet&quot;[journal] OR &quot;Med Care&quot;[journal] OR &quot;Med J Aust&quot;[journal] OR &quot;Midwifery&quot;[journal] OR &quot;N Engl J Med&quot;[journal] OR &quot;Neurology&quot;[journal] OR &quot;Neurosurgery&quot;[journal] OR &quot;Nurs Res&quot;[journal] OR &quot;Obstet Gynecol&quot;[journal] OR &quot;Pain&quot;[journal] OR &quot;Patient Educ Couns&quot;[journal] OR &quot;Pediatrics&quot;[journal] OR &quot;Psychiatr Bull R Coll Psychiatr&quot;[journal] OR &quot;Qual Health Res&quot;[journal] OR &quot;Radiology&quot;[journal] OR &quot;Res Nurs Health&quot;[journal] OR &quot;Rheumatology&quot;[journal] OR &quot;Soc Sci Med&quot;[journal] OR &quot;Spine&quot;[journal] OR &quot;Stroke&quot;[journal] OR &quot;Thorax&quot;[journal] OR &quot;West J Nurs Res&quot;[journal]</textarea>
+						</td></tr></table>
+					</li>
+					<li>Finish with the instructions you used for to create the first custom filter</li>
+	      </ol>
+	    </li>
+	    <li><b>Diagnostic test accuracy studies</b>. So you do not miss these articles among searches with a large number of results
+	      <ol type="a">
+	        <li>Why? PubMed has an automatic filter for randomized controlled trials, but currently does not have a filter for diagnostic test accuracy.</li>
+					<li>Create a filter that is named &quot;Diagnostic test accuracy&quot; and contains the search terms: <br>
+						<table border=0 style="background-color:#CFCFCF"><tr><td>
+						<a class="selectall" href="javascript:document.getElementById('dxtestaccuracy').select()">Select text below</a> (then press control and C together to copy)<br>
+						<textarea id="dxtestaccuracy" cols="80" rows="2" wrap="virtual"  onFocus="this.select()">Diagnosis/Narrow[filter]</textarea>
+						</td></tr></table>
+					</li>
+					<li>Finish with the instructions you used for to create the first custom filter</li>
+	      </ol>
+	    </li>
+	    <li><b>Systematic reviews (high quality)</b>. So you do not miss these articles among searches with a large number of results
+	      <ol type="a">
+	        <li>Why: not all systematic reviews are created equal; however, ones by the <a href="http://cochrane.org">Cochrane</a>, <a href="http://www.iom.edu/Reports.aspx">Institute of Medicine</a>, <a href="http://www.ahrq.gov/clinic/epcindex.htm">AHRQ Evidence-based Practice Centers</a>,  <a href="http://www.nice.org.uk/">National Institute for Health and Clinical Excellence (UK)</a>, and <a href="http://clinicalevidence.com">Clinical Evidence</a> are very good. This filter is not perfect, occasionally publications by groups with similar names may sneak in.</li>
+					<li>Create a filter that is named &quot;Systematic reviews (high quality)&quot; and contains the search terms: <br>
+						<table border=0 style="background-color:#CFCFCF"><tr><td>
+						<a class="selectall" href="javascript:document.getElementById('sysrev-hq').select()">Select text below</a> (then press control and C together to copy)<br>
+						<textarea id="sysrev-hq" cols="80" rows="2" wrap="virtual"  onFocus="this.select()">&quot;The Cochrane database of systematic reviews&quot;[Jour] OR &quot;Evidence report/technology assessment&quot;[Jour] OR &quot;clin evid&quot;[Journal] OR &quot;national academies&quot;[Publisher]) OR &quot;national institute&quot;[Publisher]</textarea>
+						</td></tr></table>
+					</li>
+					<li>Finish with the instructions you used for to create the first custom filter</li>
+	      </ol>
+	    </li>
+	    </li>
+		</ol>
+		</li>
+    <li>Make any other customizations you would like. </li>
+	<li>Consider bookmarking PubMed's
+	<ul>
+		<li><a href="https://www.ncbi.nlm.nih.gov/pubmed/citmatch">Single Citation Matcher</a></li>
+		<li><a href="https://www.ncbi.nlm.nih.gov/pubmed/clinical">Clinical Queries</a></li>
+	</ul>
+	</li>
+  </ol>
+</div>
+<div style="color:red;font-weight:bold">MS3s: can stop here. However, creating collections as below is a great way to save citations.</div>
+  <a name="public"/><h3>2. Create a public collection that contains the articles that you already have on your topic.</h3>
+  <div>
+	  <ul>
+		<li>QI Teams: Your collections are <a href="http://sumsearch.org/quality/pubmed-wichita/">PHP teams</a> and <a href="http://sumsearch.org/quality/pubmed-qi/">Resident teams</a>. Passwords are located on SharePoint sites for <a href="https://share.kumc.edu/SOM/wichita/hop/">HoP</a> and <a href="https://share.kumc.edu/SOM/wichita/IM/pbi/">Resident PBI teams</a>.</li>
+	  </ul>
+	  <ol>
+      <li>You probably already have one or two articles on your topic. If not, pick some articles by reading your topic at <a href="https://auth.dynamed.com/login.aspx">Dynamed</a> or <a href="http://uptodate.com">UpToDate</a>. Use the PubMed single citation finder at <a href="https://www.ncbi.nlm.nih.gov/pubmed/citmatch">https://www.ncbi.nlm.nih.gov/pubmed/citmatch</a> to find the articles that you already have. When viewing an abstract, click &quot;Send to&quot;<br> 
+        <img src="sendto.jpg" border=1 style="border: 2px solid red; box-shadow: 15px 15px 10px rgb(136, 136, 136);"><br/><br> 
+    ...and start a collection; give the collection a short name that reflects your topic. </li>
+      <li>When finished, click &quot;Edit your collection&quot; (this is already done for QI teams):<br> 
+        <img src="edityourcollection.jpg" border=1 style="border: 2px solid red; box-shadow: 15px 15px 10px rgb(136, 136, 136);"><br><br> 
+        ...click &quot;Edit Collection Settings&quot; on the right and make this a public collection. Copy the &quot;Public URL&quot;, email the url to yourself and your faculty supervisor(s) so you will have this url whenever you want to share your collection with someone (this is already done for QI teams).<br>
+        <img src="publicurl.jpg" border=1 style="border: 2px solid red; box-shadow: 15px 15px 10px rgb(136, 136, 136);"><br><br> 
+          </li>
+    </ol>
+  </div>
+  
+  <div>Goal for this page: please send the url of your collection to your faculty advisor for feedback before proceeding to the next page.</div>
+
+  <div style="color:red;font-weight:bold">MS4s: stop here</div>
+
+<div style="text-align:right"><a href="2-searchterms.shtml">Next page</a> (choosing search terms)</div>
+<div style="text-align:left"><a style="text-decoration:none;color:black" href="https://redcap.kumc.edu/surveys/?s=KQenbU">.</a></div>
+
+    <!-- Stop content here -->
+
+  <div>&nbsp;</div>
+<div>Questions: <a href="mailto:rbadgett@kumc.edu">rbadgett@kumc.edu</a></div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-528993-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>
