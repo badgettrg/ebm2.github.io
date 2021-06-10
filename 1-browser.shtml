@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<link rel="shortcut icon" href="/images/favicon.ico" />
+<title>Searching: getting started</title>
+</head>
+
+<body>
+
+<!-- start of content -->	
+
+<h1>Searching: getting started</h1>
+<div>
+  <!--<div>Email <a href="mailto:rbadgett@kumc.edu">rbadgett@kumc.edu</a> for suggestions to impmrove these instructions. </div>-->
+  
+  <h2>Prepare your Internet Browser</h2>
+  	<ul type=o>
+  		<li>Faciliate access to full texts of articles from off-campus without having to go to the library website.
+  		<ul>
+	  		<li>Install the <a href="/bookmarklets">KUMC bookmarklet</a>.</li>
+	  		<li>Configure the <a href="http://scholar.google.com/scholar_settings">Scholar settings</a> of your Google account (if you have gmail) so that your library link is University of Kansas Medical Center. If you continue your training elsewhere, replace KUMC with your new institution.</li>
+	  		<li>Install the "PubMed - KUMC" browser <a href="/searchplugins">Search plugin</a> (this adds the Find at KUMC Find It! icon <img src="DB__ot__3683.jpg" width="120" height="28"> to PubMed citations).  If you continue your training elsewhere, ask you new librarians for this service.</li>
+  		</ul>
+  		<li>Install additional browser <a href="/searchplugins">Search plugins</a>. Do not install all of the many plugins available, but include:
+			<ul>
+				<li>PubMed - KUMC facilitates finding full text (as noted above)</li>
+				<li>Federated search engine: SUMSearch</li>
+				<li>Textbooks online: <i>UpToDate</i> and <i>Dynamed</i> (the plugin only provides results; not a license to content)</li>
+				<li>Drug information: <i>DailyMed</i></li>
+			</ul>
+		</li>
+  		<li>Faciliate quickly reading large documents (optional, but handy)
+  		<ul>
+	  		<li>If you use Google Chrome, its built-in search feature is good and indicates hits in the scrollbar.</li>
+	  		<li>If you use Firefox, use this add-on: <a href="https://addons.mozilla.org/en-US/firefox/addon/highlightall/">HIghlightAll</a>.</li>
+	  		<li>Internet Explorer and Safari do not support highlighting mulitple words in different colors or highlighting on the scrollbar.</li>
+  		</ul>
+  		</li>
+  	</ul>
+</div>
+
+	<!-- Stop content here -->
+
+  <div>&nbsp;</div>
+<div>Questions: <a href="mailto:rbadgett@kumc.edu">rbadgett@kumc.edu</a></div>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-528993-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+
+</body>
+</html>
