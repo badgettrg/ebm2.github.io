@@ -243,17 +243,57 @@ if (navigator.userAgent.indexOf("Firefox") > 0)
 	<li><a href="javascript:void()" onclick="window.external.AddSearchProvider('http://sumsearch.org/searchplugins/medlineplus-drugs-opensearch.xml');">MedlinePlus	- drugs</a>. MedlinePlus provides pronunciations of generic names</li>
 </ul>
 
-<h3>Terminologies plugins</h3>
-<ul>
-	<li><a href="javascript:void()" onclick="window.external.AddSearchProvider('mesh-opensearch.xml');">MeSH	Browser</a></li>
-	<li><a href="javascript:void()" onclick="window.external.AddSearchProvider('mesh-entrez-opensearch.xml');">MeSH Browser</a> (entrez)</li>
-</ul>
-
-<h3>News plugins</h3>
-<ul>
-	<li><a href="javascript:void()" onclick="window.external.AddSearchProvider('http://sumsearch.org/searchplugins/hbr-opensearch.xml');">Harvard Business Review</a> <textarea rows=2 cols=80>https://hbr.org/search?term=@keyword@</textarea></li>
-</ul>
-
+	<h3>Wiki editting</h3>
+<table width=100% border=1 bordercolor="#000000" cellpadding=4 cellspacing=0>
+	<thead>
+		<tr valign="top">
+			<th width="180px">
+				<p>&nbsp;</p>
+			</th>
+			<th width="300px">
+				<p>Chrome on desktop computers<br/>(copy text box to search settings)</p>
+			</th>
+			<th width="75px">
+				<p>FireFox<br/>(mobile browser may limit to three engines)</p>
+			</th>
+			<th width="500px">
+				<P>iPhone/iPad:<BR/>
+				<a href="http://www.perfectbrowser.com/">Perfect Browser</a>
+				<!-- <BR>
+				<a href="http://atomicwebbrowser.com/">Atomic Web Browser</a> (replace 'keyword' with 'search', but <i>don't use pending update</i>)
+				-->
+				<br>(copy text box to search settings)
+				</p>
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr valign="top">
+			<td><b><a href="http://sumsearch.org/cite/">SUMSearch Template builder</a></b><br/>Suggested keyword: 'doi'</td>
+			<td>
+				<textarea style="width:90%">http://sumsearch.org/cite/default.aspx?todo=cite&q=%s&otool=&CheckBox_reviews=on&topic=rx&population=&intervention=&comparison=placebo&outcome=&eer=&cer=&outcometype=-&significance=yes&sens=&spec=&prev=/textarea>
+			</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr valign="top">
+			<td><b>Diberri Template builder</b><br/>Suggested keyword: 'dib'</td>
+			<td>
+				<textarea style="width:90%">https://citation-template-filling.toolforge.org/cgi-bin/index.cgi?ddb=&type=pubmed_id&id=%s&add_ref_tag=1ssssssssss</textarea>
+			</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr valign="top">
+			<td><b>{T} DOI Wikipedia reference generator/b><br/>Suggested keyword: 'doi'</td>
+			<td>
+				<textarea style="width:90%">http://reftag.appspot.com/doiweb.py?doi=%s/textarea>
+			</td>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+	</tbody>
+</table
 <h3>Other plugins</h3>
 <ul>
 	<li><a href="javascript:void()" onclick="window.external.AddSearchProvider('http://sumsearch.org/searchplugins/google-opensearch.xml');">Google</a></li>
